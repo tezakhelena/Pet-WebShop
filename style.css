@@ -1,0 +1,1777 @@
+body{
+    background-color: white;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1300px;
+    padding: 2px;
+    margin: 0 auto;
+}
+
+.product {
+    position: relative;
+    overflow: hidden;
+    padding: 20px;
+}
+
+.product-container {
+    padding: 0 10vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+  }
+  
+  .product-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .product-card {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 450px;
+    margin-right: 40px;
+  }
+  
+  .product-image {
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+  }
+.obavjest_admin{
+    margin-left: 35%;   
+    width: 500px;
+    text-align: center;
+}
+
+.tablica_detalji_korisnik{
+    margin-left: 25%;
+    width: 50%;
+    margin-top: 5%;
+}
+
+.placanje{
+    font-size: 20px;
+}
+
+p{
+    font-size: 18px;
+}
+
+.detalji{
+    margin-top: 10%;
+    display: grid;
+}
+
+.slika1{
+    margin-left: 60%;
+    margin-top: -70%;
+}
+
+.slikadostava{
+    margin-left: 80%;
+    margin-top: -40%;
+}
+
+h3{
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.card1{
+    margin-top: 2%;
+    width: 200%;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    height: 55%;
+}
+
+.forma_registracije{
+    margin-top: 10%;
+}
+
+.card1 input{
+    width: 50%;
+    height: 8%;
+}
+
+.card {
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    width: 40%;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.idi_na{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.idi_na:hover{
+    color: rgb(224, 223, 223);
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.card2 {
+    width: 20%;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    background-color: rgb(94, 182, 253);
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.card2:hover {
+    border-style: solid;
+    border-color: rgb(99, 98, 98);
+}
+
+.card3 {
+    width: 20%;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    background-color: rgb(253, 181, 94);
+    border-radius: 5px;
+    margin-left: 40%;
+    margin-top: -14.3%;
+}
+
+.card3:hover {
+    border-style: solid;
+    border-color: rgb(93, 91, 91);
+}
+
+.card4 {
+    width: 20%;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    background-color: rgb(62, 231, 62);
+    border-radius: 5px;
+    margin-left: 70%;
+    margin-top: -14.1%;
+}
+
+.card4:hover {
+    border-style: solid;
+    border-color: rgb(93, 91, 91);
+}
+
+.card5 {
+    width: 20%;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    background-color: rgb(231, 90, 62);
+    border-radius: 5px;
+    margin-left: 10%;
+    margin-top: 4%;
+}
+
+.card5:hover {
+    border-style: solid;
+    border-color: rgb(93, 91, 91);
+}
+
+.card8 {
+    width: 20%;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    background-color: rgb(191, 57, 57);
+    border-radius: 5px;
+    margin-left: 40%;
+    margin-top: -14.4%;
+}
+
+.card8:hover {
+    border-style: solid;
+    border-color: rgb(93, 91, 91);
+}
+
+.card9 {
+    width: 20%;
+    text-align: center;
+    color: white;
+    border-style: solid;
+    border-color: rgb(150, 150, 150);
+    background-color: rgb(243, 149, 250);
+    border-radius: 5px;
+    margin-left: 70%;
+    margin-top: -14.4%;
+}
+
+.card9:hover {
+    border-style: solid;
+    border-color: rgb(93, 91, 91);
+}
+
+.container {
+    padding: 2px 16px;
+}
+.price {
+    color: grey;
+    font-size: 22px;
+}
+.slika2{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+    transition: 0.4s;
+}
+
+.slika2:hover{
+    box-shadow: 0 15px 40px 0 rgba(0,0,0,0.5);
+}
+
+.section .content{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap:2rem;
+    margin-bottom: 4rem;
+}
+
+.section .content .image{
+    flex:1 1 40rem;
+}
+ 
+.section .content .image img{
+    width: 100%;
+}
+
+.section .content .tekst{
+    flex:1 1 40rem;
+    text-align: center;
+}
+
+.section .content .tekst span{
+    font-size: 2.5rem;
+    color:var(--light-color);
+}
+
+.h3{
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.footer2{
+    margin-top: 5%;
+}
+
+.kategorija .box-container{
+    display: grid;
+    margin-left: 26%;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 17rem));
+    gap:4rem;
+    align-items: flex-start;
+}
+
+
+    
+.kategorija .box-container .box{
+    border:var(--border);
+    padding:2rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+}
+    
+.kategorija .box-container .box:hover{
+    border:var(--border);
+    padding:2rem;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    box-shadow: 0 15px 40px 0 rgba(0,0,0,0.5);
+    border-radius: 5px;
+}
+    
+.kategorija .box-container .box img{
+    width: 100%;
+    height: 10rem;
+    object-fit: contain;
+}
+    
+.title_kategorija{
+    text-align: center;
+    margin-bottom: 2.5rem;
+    font-size: 4rem;
+    color:var(--black);
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+}
+
+.filterinput{
+    width: 200%;
+}
+
+.refresh_btn{
+    margin-left: 240%;
+    width: 70%;
+    margin-top: -58%;
+}
+
+.natrag-gumb{
+    margin-left: 5%;
+}
+
+.natrag-gumbic{
+    margin-left: 2%;
+}
+
+.filtriraj{
+    margin-left: -1.2%;
+}
+
+.filter_button{
+    margin-left: 140%;
+    margin-top: 5%;
+}
+
+.filter{
+    width: 30%;
+    color: black;
+    margin-top: 5%;
+}
+
+.filter2{
+    margin-left: 90%;
+}
+
+
+.filter3{
+    margin-left: 5%;
+    margin-top: -28%;
+}
+
+.tablica{
+    margin-top: 5%;
+}
+
+.tablica-dokumenti{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.tablica-dokumenti a{
+    color: rgb(0, 126, 17);
+    text-decoration: none;
+}
+
+.tablica-dokumenti a:hover{
+    color: rgb(10, 190, 34);
+    text-decoration: none;
+}
+
+.bar2{
+    margin-top: 5%;
+}
+.bar{
+    color: black;
+    text-decoration:none;
+}
+.bar:hover{
+    color: blue;
+    text-decoration: none;
+}
+
+.page-item {
+    color: black;
+    float: left;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+.page-link{
+    border-radius: 5px;
+    color: black;
+    float: left;
+    padding: 5px 5px;
+    text-decoration: none;
+}
+
+.icon-print{
+    font-size: 20px;
+}
+
+.icon-edit{
+    font-size: 20px;
+}
+
+
+.icon-ban-circle{
+    font-size: 20px; 
+}
+
+.block{
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 7px 25px 7px 25px;
+    margin-top: 3%;
+}
+
+.pdf{
+    text-decoration: none;
+    background-color: rgb(102, 210, 102);
+    color: white;
+    border-radius: 5px;
+    padding: 7px 30px 7px 30px;
+    margin-left: 1%;
+    border-radius: 3px;
+    margin-top: 3%;
+}
+
+.pdf2{
+    text-decoration: none;
+    background-color: rgb(102, 210, 102);
+    color: white;
+    border-radius: 5px;
+    padding: 7px 30px 7px 30px;
+    margin-left: 15%;
+    border-radius: 3px;
+    margin-top: -21%;
+}
+
+.novododaj{
+    text-decoration: none;
+    background-color: rgb(48, 155, 255);
+    color: white;
+    border-radius: 5px;
+    padding: 7px 30px 7px 30px;
+    margin-left: 31%;
+    border-radius: 3px;
+    margin-top: -13.5%;
+}
+
+.osvjezi{
+    text-decoration: none;
+    background-color: rgb(48, 155, 255);
+    color: white;
+    border-radius: 5px;
+    padding: 7px 30px 7px 30px;
+    margin-left: 80%;
+    border-radius: 3px;
+    margin-top: -17.5%;
+}
+
+.btn-delete{
+    background-color: #f44336;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-delete-upit{
+    background-color: #f44336;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-left: 20%;
+}
+
+.btn-delete-upit:hover{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+}
+
+.tablica_korisnici{
+    width: 100%;
+    border: none;
+}
+
+.tablica_korisnici thead{
+    border: none;
+}
+
+.tablica_korisnici td{
+    border: none;
+}
+
+.tablica_profil{
+    margin-left: 120%;
+    margin-top: 31%;
+}
+
+.lozinka{
+    margin-left: 120%;
+    width: 30%;
+}
+
+.uredi_profil{
+    margin-top: -59%;
+    width: 90%;
+}
+
+tr, th {
+    text-align: center;
+    padding: 8px;
+}
+
+.btn-delete:hover{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-edit:hover{
+    background-color: green;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-edit{
+    background-color: lightgreen;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none; 
+}
+
+.btn-edit-upit{
+    background-color: lightgreen;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none; 
+    margin-left: -60%;
+}
+
+.btn-edit-upit:hover{
+    background-color: green;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-edit-dostava{
+    background-color: lightgreen;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none; 
+}
+
+.btn-edit-dostava:hover{
+    background-color: green;
+    text-decoration: none;
+    color: white;
+}
+
+thead{
+    font-size: 1.3rem;
+}
+
+.uredi{
+    border-radius: 5px;
+    background-color: lightgreen;
+    border: 0px;
+    text-align: center;
+    width: 15%;
+    height: 40px;
+    padding: 7px 20px;
+    margin: 10px 0;
+    margin-left: 2%;
+}
+
+.uredi:hover{
+    background-color: green;
+}
+
+input {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+select {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.trazi{
+    margin-top: 5%;
+    width: 50%;
+}
+
+.trazi_gumb{
+    margin-left: 60%;
+    margin-top: -15%;
+}
+
+.odobri{
+    margin-left: 40%;
+    margin-top: -8%;
+}
+
+.kategorija_form{
+    margin-top: 20%;
+}
+
+.kategorija_form1{
+    margin-top: 30%;
+}
+
+.kategorija_form2{
+    margin-top: 50%;
+}
+
+.kategorija_form3{
+    margin-top: 30%;
+}
+
+.slika_detalji{
+    border-radius: 10px;
+}
+
+.form{
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    margin-left: 50%;
+    margin-top: -35%;
+}
+
+.sifra{
+    color: grey;
+}
+
+.tablica-narudzba{
+    width: 40%;
+    margin-left: 90%;
+    text-align: left;
+}
+
+
+.proizvod, .cijena{
+    color: rgb(255, 64, 0);
+}
+
+.sifra_narudzbe{
+    color: grey;
+}
+
+.form_uredi{
+    width: 600px;
+    margin-top: -1%;
+}
+
+.slika_uredi{
+    margin-left: 130%;
+    margin-top: -95%;
+    border-radius: 5px;
+}
+
+.narudzba_form .box{
+    background-color: white;
+}
+
+.narudzba_form form{
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 3px solid violet;
+    background-color: rgb(235, 235, 235);
+}
+
+.form_upit{
+    width: 600px;
+    margin-top: 5%;
+}
+
+.btn-back{
+    background-color: rgb(253, 118, 73);
+    color: white;
+    margin-top: 10%;
+}
+
+.btn-back-slika{
+    background-color: rgb(253, 118, 73);
+    color: white;
+}
+
+.btn-edit-upiti{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 20px 5px;
+    text-align: center;
+    text-decoration: none; 
+    margin-left: 90%;
+}
+
+.btn-edit-upiti:hover{
+    background-color: lightgreen;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none; 
+}
+
+
+.dodavanje form .box{
+    background-color: white;
+}
+
+.dodavanje form{
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    margin-top: 3%;
+    margin-left: -1%;
+}
+
+.form_registracija{
+    width: 600px;
+    margin-top: 1%;
+}
+
+.slika_registracija{
+    margin-left: 60%;
+    margin-top: -26%;
+}
+.registracija{
+    margin-left: -82%;
+}
+.p{
+    margin-top: 7%;
+    margin-left: 20%;
+}
+
+.form_login{
+    width: 700px;
+    margin-top: 17%;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+
+.slika_login{
+    margin-left: 95%;
+    margin-top: -55%;
+}
+
+.slika_register{
+    margin-left: 70%;
+    margin-top: -65%;
+}
+
+.btn-cart{
+    background-color: violet;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none; 
+}
+
+.btn-edit2:hover{
+    background-color: darkorange;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-edit2{
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none; 
+}
+
+.tablica_narudzbe
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.tablica_kategorija
+{
+    width: 80%;
+    border-radius: 10px;
+    margin-left: 5%;
+    height: 60%;
+}
+
+.tablica_kategorija td
+{
+    height: 100%;
+}
+
+.nova_kategorija{
+    width: 30%;
+    border-radius: 5px;
+    height: 5%;
+}
+
+.thead{
+    font-size: 1.3rem;
+    color: rgb(0, 143, 205);
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.link:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.poruka_korisnik{
+    margin-left: 10%;
+    width: 400px;
+    background-color: rgb(33, 222, 33);
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+
+.poruka_korisnik2{
+    margin-left: 50%;
+    width: 400px;
+    background-color: rgb(33, 222, 33);
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+
+.korisnik_poruke{
+    margin-left: 10%;
+}
+
+.korisnik_poruke2{
+    margin-left: 50%;
+}
+
+.moje_poruke{
+    text-decoration: none;
+    color: black;
+}
+
+.moje_poruke:hover{
+    text-decoration: none;
+    color: black;
+}
+
+.admin_poruke{
+    margin-left: 50%;
+    margin-top: 5%;
+}
+
+.admin_poruke2{
+    margin-left: 10%;
+    margin-top: 5%;
+}
+
+.poruka_admin2{
+    margin-left: 10%;
+    width: 400px;
+    background-color: rgb(212, 212, 212);
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+
+.poruka_admin{
+    margin-left: 50%;
+    width: 400px;
+    background-color: rgb(212, 212, 212);
+    padding: 7px 20px;
+    border-radius: 10px;
+}
+
+.odgovor{
+    color: black;
+}
+
+.pitanje {
+    color: grey;
+    font-size: 22px;
+}
+
+.upiti_box {
+    padding: 2px 16px;
+}
+
+
+.slika_upiti{
+    margin-left: 35%;
+    margin-top: 5%;
+}
+
+textarea{
+    width: 90%;
+    padding: 12px 20px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.upit form .box{
+    background-color: white;
+}
+
+.slika_noviUpit{
+    margin-left: 60%;
+    margin-top: -35%;
+    width: 600px;
+}
+
+.upit form{
+    max-width: 30rem;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: white;
+    margin-top: 10%;
+    margin-left: -1%;
+}
+
+.btn-delete-poruka{
+    margin-left: 90%;
+    background-color: #f44336;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.btn-delete-poruka:hover{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+}
+
+.btn-delete-poruka2{
+    margin-left: 80%;
+    margin-top: -10%;
+    background-color: #f44336;
+    color: white;
+    border-radius: 5px;
+    padding: 6px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+.btn-delete-poruka2:hover{
+    background-color: red;
+    text-decoration: none;
+    color: white;
+}
+
+.tablica_search_korisnici{
+    margin-top: 3%;
+}
+
+.tablica_search_proizvodi{
+    margin-top: 3%;
+}
+
+.proizvod .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 10rem);
+    gap:1.5rem;
+    width: 100%;
+    justify-content: center;
+}
+
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+
+.prev, .next_slide {
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    width: auto;
+    padding: 20px;
+    margin-top: -22px;
+    margin-left: -18%;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next_slide {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+  
+.prev:hover, .next_slide:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.proizvod .box-container-filter{
+    width: 80%;
+    justify-content: center;
+    margin-left: 18%;
+    margin-top: -5%;
+}
+
+.proizvod .box-container-filter .box_proizvod{
+    text-align: center;
+    width: 80%;
+    padding:2rem;
+}
+
+.uredivanje_bla{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(20rem, 25rem));
+    gap: .5px;
+    align-items: flex-start;
+}
+
+.form_uredi_oprema{
+    width: 120%;
+}
+
+.uredivanje_bla2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 20rem));
+    gap: .5px;
+    align-items: flex-start;
+}
+
+.uredivanje_bla3{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 30rem));
+    gap: .5px;
+    align-items: flex-start;
+}
+
+.podaci_uredi{
+    width: 150%;
+}
+
+.podaci_uredi2{
+    width: 110%;
+}
+
+.form_uredi_hrana{
+    width: 120%;
+}
+
+.box_proizvod{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    height: 550px;
+}
+
+.box_proizvod:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.proizvod .box-container .box_proizvod{
+    text-align: center;
+    width: 100%;
+    padding:2rem;
+}
+
+.proizvod .box-container .box_proizvod h3{
+    font-size: 2.0rem;
+    color:var(--black);
+}
+
+.za_detalje{
+    text-decoration: none;
+    color: black;
+}
+
+.za_detalje:hover{
+    text-decoration: none;
+    color: grey;
+}
+
+.proizvod .box-container .box_proizvod .cijena_proizvod{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+.proizvod .box-container-filter .box_proizvod .cijena_proizvod{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+.checkout-btn{
+    background-color: lightgreen;
+    border-radius: 5px;
+    margin-top: -3%;
+    margin-left: 76%;
+    width: 13%;
+}
+
+.podaci{
+    width: 60%;
+}
+
+.podaci_upit{
+    text-align: left;
+}
+
+.informacije{
+    color: black;
+    text-decoration: none;
+}
+
+.informacije:hover{
+    color: rgb(243, 158, 32);
+    text-decoration: none;
+}
+
+.checkout-btn:hover{
+    background-color: rgb(2, 168, 2);
+}
+
+.nastavi_kupovati{
+    margin-top: 40%;
+    margin-left: -80%;
+}
+
+.thead_upiti{
+    font-size: 1.3rem;
+    color: green;
+}
+
+.tablica_upiti
+{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.proizvod_uredi form .box{
+    background-color: white;
+}
+
+.proizvod_uredi form{
+    width: 600px;
+    margin-top:20%;
+}
+
+.uredi_sliku {
+    margin-left: 110%;
+    border-radius: 10px;
+    margin-top: -60%;
+}
+
+
+.trenutna_foto{
+    margin-left: 60%;
+    margin-top: 5%;
+    color: black;
+}
+
+.uredi_slikugumb{
+    width: 30%;
+    background-color: lightgreen;
+    border: 0px;
+    text-align: center;
+}
+
+.tablica_narudzbe
+{
+    width: 100%;
+}
+
+.thead_narudzbe{
+    font-size: 1.3rem;
+    color: rgb(0, 143, 205);
+}
+
+.navbar2 {
+    overflow: hidden;
+    background-color: rgb(205, 205, 205);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.navbar2 a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.slika_ljubimci{
+    border-radius: 10px;
+}
+
+.dataTables_wrapper .dataTables_paginate .paginate_button {
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    border: 1px rgb(57, 162, 254);
+    border-style: solid;
+    border-radius: 2px;
+    padding: 5px 5px;
+    cursor: pointer;
+    margin-left: 1%;
+    margin-top: 10%;
+}
+
+.dataTables_wrapper .dataTables_filter input{
+    border-radius: 4px;
+    height: 5%;
+}
+
+.dataTables_wrapper .dataTables_length select{
+    border-radius: 4px;
+    height: 5%;
+}
+
+.dataTables_wrapper .dataTables_paginate{
+    margin-top: 3%;
+    margin-left: 20%;
+}
+
+
+
+.dataTables_wrapper .dataTables_paginate .paginate_button.current {
+    text-decoration: none;
+    background-color: rgb(58, 193, 255);
+}
+
+.update_narudzba_btn{
+    width: 100px;
+    border-radius: 5px;
+    height: 30px;
+    padding: 1px;
+    border: none;
+    background-color: greenyellow;
+    font-weight: bold;
+}
+
+.btn-narudzba{
+    background-color: rgb(255, 144, 71);
+    width: 30%;
+    border-radius: 10px;
+}
+
+.container_narudzba{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    padding: 40px 0 25px 20px;
+    width: 80%;
+    margin-left: 10%;
+}
+
+.form-control{
+    margin-top: -5.5%;
+    margin-left: 5%;
+    width: 60%;
+}
+
+.form-control2{
+    width: 90%;
+    border-radius: 7px;
+    height: 12%;
+}
+
+.prijava_btn{
+    width: 30%;
+    margin-left: 18%;
+}
+
+.checkout-form form{
+    padding:2rem;
+    border-radius: .5rem;
+    background-color: var(--bg-color);
+}
+
+.nastavi_pocetna{
+    background-color: rgb(105, 174, 0);
+    margin-left: -85%;
+    
+}
+
+.login_icon_user{
+    background-color: rgb(240, 239, 239);
+    padding: 5px 0 8px 10px;
+    width: 5%;
+}
+
+ 
+.checkout-form form .flex{
+    gap:0.5rem;
+    margin-top: -30%;
+}
+ 
+.checkout-form form .flex .inputBox{
+    flex:1 0 20rem;
+}
+ 
+.checkout-form form .flex .inputBox span{
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    color:var(--black);
+}
+ 
+ .checkout-form form .flex .inputBox input,
+ .checkout-form form .flex .inputBox select{
+    width: 30%;
+    background-color: var(--white);
+    color: black;
+    text-transform: none;
+ }
+
+
+ .procitano{
+    margin-left: 85%;
+    margin-top: -20%;
+ }
+ 
+ .dodavanje .inputBox span{
+    font-size: 1rem;
+    color: black;
+    font-weight: bold;
+    color:var(--black);
+ }
+ 
+ .dodavanje .inputBox input,
+ .dodavanje .inputBox select{
+    width: 50%;
+    background-color: var(--white);
+    font-size: 1rem;
+    color: black;
+    border-radius: .5rem;
+    margin:1rem 0;
+    padding:1.2rem 1.4rem;
+    text-transform: none;
+    border:var(--border);
+ }
+
+ .display-order{
+    max-width: 70%;
+    margin-left: -10%;
+    margin-top: 5%;
+ }
+
+ .wish{
+    margin-left: 90%;
+ }
+
+ .box_proizvod_gost{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    height: 380px;
+ }
+
+ .box_proizvod_gost:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.proizvod .box-container .box_proizvod_gost{
+    text-align: center;
+    width: 100%;
+    padding:2rem;
+}
+
+.proizvod .box-container .box_proizvod_gost h3{
+    font-size: 2.0rem;
+    color:var(--black);
+}
+
+.proizvod .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 20rem);
+    gap:1.5rem;
+    justify-content: center;
+}
+
+.proizvod .box-container .box_proizvod_gost .cijena_proizvod{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+
+.box_proizvod_user{
+    box-shadow: 0 4px 10px 0 rgba(0,0,0,0.5);
+    transition: 0.3s;
+    height: 500px;
+}
+
+.box_proizvod_user:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.proizvod .box-container .box_proizvod_user{
+    text-align: center;
+    width: 100%;
+    padding:2rem;
+}
+
+.proizvod .box-container .box_proizvod_user h3{
+    font-size: 2.0rem;
+    color:var(--black);
+}
+
+.isprazni{
+    margin-top: -5%;
+}
+
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff8df;
+    width: 700%;
+    margin-bottom: 5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+  
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content2 {
+    display: none;
+    position: absolute;
+    background-color: #fff8df;
+    height: 190px;
+    width: 34%;
+    margin-bottom: 5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown2:hover .dropdown-content2 {
+    display: block;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content3 {
+    display: none;
+    position: absolute;
+    background-color: #fff8df;
+    height: 120px;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown3:hover .dropdown-content3 {
+    display: block;
+}
+
+.dropdown-content4 {
+    display: none;
+    position: absolute;
+    background-color: #fff8df;
+    height: 170px;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown4:hover .dropdown-content4 {
+    display: block;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content5 {
+    display: none;
+    position: absolute;
+    background-color: #fff8df;
+    height: 200px;
+    width: 30%;
+    text-align: center;
+    margin-bottom: 5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown5:hover .dropdown-content5 {
+    display: block;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content6 {
+    display: none;
+    position: absolute;
+    background-color: #fff8df;
+    height: 180px;
+    width: 10%;
+    text-align: center;
+    margin-bottom: 5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown6:hover .dropdown-content6 {
+    display: block;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content7 {
+    display: none;
+    position: absolute;
+    background-color: #fff8df;
+    height: 200px;
+    width: 15%;
+    text-align: center;
+    margin-bottom: 5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown7:hover .dropdown-content7 {
+    display: block;
+}
+
+/* Dropdown content (hidden by default) */
+.dropdown-content8 {
+    display: none;
+    position: absolute;
+    background-color: #fff8df;
+    height: 160px;
+    width: 10%;
+    text-align: center;
+    margin-bottom: 5%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown8:hover .dropdown-content8 {
+    display: block;
+}
+  
+/* Create three equal columns that floats next to each other */
+.column {
+    width: 24%;
+    padding: 10px;
+    height: 250px;
+    text-align: center;
+}
+  
+  /* Style links inside the columns */
+.column a {
+    float: none;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+/* Style links inside the columns */
+.column a:hover {
+    float: none;
+    font-weight: bold;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+    text-align: center;
+}
+
+/* Create three equal columns that floats next to each other */
+.column2 {
+    width: 60%;
+    height: 100px;
+    margin-left: 15%;
+    margin-top: 5%;
+    text-align: center;
+}
+  
+  /* Style links inside the columns */
+.column2 a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Style links inside the columns */
+.column2 a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.column3 {
+    width: 45%;
+    height: 100px;
+    margin-top: 5%;
+    margin-left: 23%;
+    text-align: center;
+}
+  
+  /* Style links inside the columns */
+.column3 a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Style links inside the columns */
+.column3 a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.column4 {
+    width: 50%;
+    height: 100px;
+    margin-top: 5%;
+    margin-left: 23%;
+    text-align: center;
+}
+  
+  /* Style links inside the columns */
+.column4 a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+}
+
+/* Style links inside the columns */
+.column4 a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+
+.column5 {
+    width: 80%;
+    height: 140px;
+    margin-left: 15%;
+    margin-top: 5%;
+    text-align: center;
+}
+  
+  /* Style links inside the columns */
+.column5 a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.column5 a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.column6 {
+    width: 60%;
+    height: 120px;
+    margin-left: 15%;
+    margin-top: 5%;
+    text-align: center;
+}
+  
+  /* Style links inside the columns */
+.column6 a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.column6 a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.column7 {
+    width: 60%;
+    height: 120px;
+    margin-left: 15%;
+    margin-top: 5%;
+    text-align: center;
+}
+  
+  /* Style links inside the columns */
+.column7 a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.column7 a:hover {
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+
